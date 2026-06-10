@@ -1,20 +1,40 @@
 # SignGuide: Real-Time Sign Language Recognition
 
-**SignGuide** is a real-time sign language recognition system that uses a webcam and deep learning to detect and interpret hand gestures for alphabets and numbers. Designed to support individuals with speech and hearing impairments, it helps bridge communication gaps through gesture-based interaction.
+## Overview
+
+SignGuide is a real-time sign language recognition system that detects hand gestures through a webcam and converts them into text. The project is designed to improve communication by recognizing sign language alphabets and numbers using Computer Vision and Machine Learning techniques.
 
 ## Features
-- Detects and classifies hand gestures using a webcam
-- Supports alphabets (A,B,C,E,F) and numbers (1,2,3,5,6)
-- Real-time prediction and display of recognized gestures
-- Built with TensorFlow/Keras and OpenCV
-- Easy-to-use interface for testing and data collection
+
+- Real-time hand gesture detection
+- Recognition of alphabets (A–Z)
+- Recognition of digits (0–9)
+- Live webcam-based prediction
+- User-friendly interface
 
 ## Technologies Used
-- **Python**
-- **TensorFlow / Keras** – for training and loading the ML model (`keras_model.h5`)
-- **OpenCV** – for webcam video capture and hand detection
-- **NumPy** – for image preprocessing and array operations
 
-## Demo Images
-See sample recognition outputs here:  
- [Click to view Demo folder](./Demo)
+- Python
+- OpenCV
+- TensorFlow
+- Google Teachable Machine
+- NumPy
+- cvzone Hand Tracking Module
+
+## Workflow
+
+Webcam Input → Hand Detection → Image Preprocessing → Gesture Classification → Text Output
+
+## Run the Project
+
+```bash
+python main.py
+```
+
+## Project Information
+
+- Academic Mini Project
+- Developed using Computer Vision and Machine Learning
+
+## Project Screenshot
+![SignGuide Interface](images/Signguide.png)
