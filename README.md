@@ -37,4 +37,4 @@ python main.py
 - Developed using Computer Vision and Machine Learning
 
 ## Project Screenshot
-![SignGuide Interface](images/Signguide.png)
+![SignGuide Interface](image/Signguide.jpeg)
